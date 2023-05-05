@@ -1,9 +1,9 @@
 {
     "layer": "top",
-    "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
+    "modules-left": ["wlr/workspaces", "hyprland/mode", "hyprland/window"],
     "modules-center": ["clock", "custom/weather"],
     "modules-right": ["wlr/taskbar", "pulseaudio", "memory", "cpu"],
-    "sway/window": {
+    "hyprland/window": {
         "max-length": 50
     },
     "clock": {
@@ -48,32 +48,13 @@
         "exec": "curl 'https://wttr.in/Kolkata?format=1'",
         "interval": 800
     },
-    "sway/workspaces": {
+    "wlr/workspaces": {
         "disable-scroll": false,
+        "on-click": "activate",
         "all-outputs": true,
         "format": "{icon}",
-        "persistent_workspaces": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": [],
-            "6": [],
-            "7": [],
-            "8": [],
-            "9": [],
-        },
-        "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "﬏",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "ﭮ",
-            "8": "",
-            "9": "",
-        }
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
     }
 
 }
