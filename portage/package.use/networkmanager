@@ -1,0 +1,2 @@
+net-wireless/wpa_supplicant dbus
+net-misc/networkmanager tools wifi

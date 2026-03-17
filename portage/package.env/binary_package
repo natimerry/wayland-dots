@@ -1,0 +1,4 @@
+sys-devel/llvm getbinpkg.conf
+dev-lang/rust getbinpkg.conf
+sys-devel/clang getbinpkg.conf
+llvm-core/llvm getbinpkg.conf

@@ -1,0 +1,2 @@
+sys-apps/util-linux kill magic
+sys-process/procps -kill 

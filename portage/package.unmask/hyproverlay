@@ -1,0 +1,10 @@
+dev-cpp/glaze
+gui-libs/aquamarine
+gui-libs/hyprutils
+gui-libs/hyprland-qt-support
+gui-libs/hyprcursor
+dev-util/hyprwayland-scanner
+dev-libs/hyprlang
+dev-libs/hyprland-protocols
+dev-libs/hyprgraphics
+gui-wm/hyprland

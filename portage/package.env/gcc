@@ -1,0 +1,8 @@
+sys-apps/memtest86+ compiler-gcc
+sys-libs/glibc compiler-gcc
+dev-java/openjdk compiler-gcc
+sys-devel/gcc compiler-gcc
+sys-apps/flashrom compiler-gcc
+sys-devel/binutils compiler-gcc
+app-cdr/cdrtools compiler-gcc
+media-video/makemkv compiler-gcc

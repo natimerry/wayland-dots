@@ -1,0 +1,70 @@
+app-text/xmlto text
+# required by xfce-base/xfce4-panel-4.20.7::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.20.7::gentoo[trash-panel-plugin]
+# required by thunar (argument)
+>=dev-libs/libdbusmenu-16.04.0-r4 gtk3
+# required by gnome-base/gnome-keyring-48.0-r1::gentoo
+# required by virtual/secret-service-0-r1::gentoo
+# required by app-crypt/libsecret-0.21.7::gentoo
+# required by app-crypt/gcr-4.4.0.1-r1::gentoo
+# required by gnome-base/gvfs-1.58.0::gentoo
+# required by xfce-base/thunar-4.20.7::gentoo[trash-panel-plugin]
+# required by thunar (argument)
+>=app-crypt/gcr-3.41.2-r2:0 gtk
+# required by xfce-base/thunar-4.20.7::gentoo[udisks]
+# required by @selected
+# required by @world (argument)
+>=gnome-base/gvfs-1.58.0 udisks
+# required by www-client/firefox-148.0::gentoo[system-libvpx]
+# required by firefox (argument)
+>=media-libs/libvpx-1.16.0 postproc
+# required by www-client/firefox-148.0::gentoo[system-png]
+# required by firefox (argument)
+>=media-libs/libpng-1.6.55 apng
+# required by www-client/firefox-148.0::gentoo[pgo,X]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-21.1.21 xvfb
+# required by x11-drivers/xf86-video-ati-22.0.0::gentoo
+# required by x11-base/xorg-drivers-21.1-r2::gentoo[-video_cards_radeon,video_cards_radeonsi]
+# required by x11-base/xorg-server-21.1.21::gentoo[xorg]
+# required by x11-drivers/xf86-input-libinput-1.5.0::gentoo
+>=x11-libs/libdrm-2.4.131 video_cards_radeon
+# required by sys-power/suspend-1.0_p20200924::gentoo[crypt]
+# required by sys-power/suspend (argument)
+>=dev-libs/libgcrypt-1.12.1 static-libs
+# required by sys-power/suspend-1.0_p20200924::gentoo[crypt]
+# required by sys-power/suspend (argument)
+>=dev-libs/libgpg-error-1.59 static-libs
+# required by sys-power/suspend-1.0_p20200924::gentoo[lzo]
+# required by sys-power/suspend (argument)
+>=dev-libs/lzo-2.10 static-libs
+# required by llvm-runtimes/clang-unwindlib-config-22::gentoo[llvm-libunwind,default-compiler-rt]
+# required by llvm-runtimes/clang-runtime-22::gentoo
+# required by llvm-core/clang-common-22.1.1::gentoo
+# required by llvm-core/clang-22.1.1::gentoo
+# required by llvm-runtimes/compiler-rt-22.1.1::gentoo
+# required by llvm-runtimes/clang-rtlib-config-22::gentoo[default-compiler-rt]
+>=llvm-runtimes/libunwind-22.1.1 static-libs
+# required by llvm-core/clang-common-22.1.1::gentoo
+# required by llvm-core/clang-22.1.1::gentoo
+# required by llvm-runtimes/libunwind-22.1.1::gentoo
+# required by llvm-runtimes/clang-unwindlib-config-22::gentoo[llvm-libunwind,default-compiler-rt]
+>=llvm-runtimes/clang-runtime-22 default-lld llvm-libunwind default-compiler-rt
+# required by llvm-runtimes/clang-runtime-22::gentoo
+# required by llvm-core/clang-common-22.1.1::gentoo
+# required by llvm-core/clang-22.1.1::gentoo
+# required by llvm-runtimes/libunwind-22.1.1::gentoo
+# required by llvm-runtimes/clang-unwindlib-config-22::gentoo[llvm-libunwind,default-compiler-rt]
+>=llvm-core/clang-linker-config-22 default-lld
+# required by llvm-runtimes/clang-runtime-22::gentoo
+# required by llvm-core/clang-common-22.1.1::gentoo
+# required by llvm-core/clang-22.1.1::gentoo
+# required by llvm-runtimes/libunwind-22.1.1::gentoo
+# required by llvm-runtimes/clang-unwindlib-config-22::gentoo[llvm-libunwind,default-compiler-rt]
+>=llvm-runtimes/clang-rtlib-config-22 default-compiler-rt
+# required by llvm-runtimes/clang-runtime-22::gentoo
+# required by llvm-core/clang-common-22.1.1::gentoo
+# required by llvm-core/clang-22.1.1::gentoo
+# required by llvm-runtimes/libunwind-22.1.1::gentoo
+>=llvm-runtimes/clang-unwindlib-config-22 llvm-libunwind default-compiler-rt

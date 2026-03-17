@@ -1,0 +1,28 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+COMMON_FLAGS="-O3 -pipe -march=native -O3 -flto=auto -mtune=native -fomit-frame-pointer -funroll-loops -fdata-sections -fdevirtualize-at-ltrans -falign-functions=32 -falign-loops=32 -ftree-vectorize -ftree-loop-vectorize"
+MAKEOPTS="-j16"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+RUSTFLAGS="${RUSTFLAGS} -C target-cpu=native"
+LDFLAGS="${LDFLAGS} -fuse-ld=mold"
+
+
+
+LC_MESSAGES=C.UTF-8
+
+
+ACCEPT_LICENSE="*"
+INPUT_DEVICES="libinput"
+FEATURES="parallel-fetch"
+VIDEO_CARDS="amdgpu"
+EMERGE_DEFAULT_OPTS="--ask"
+
+ACCEPT_KEYWORDS="~amd64"
+LLVM_TARGETS="X86 AMDGPU WebAssembly AArch64 ARM"
+
+USE="X wayland dbus pipewire vulkan opengl x264 pdf jpeg png zstd git qt6 elogind networkmanager -alsa -pulseaudio -bindist -accessibility"
