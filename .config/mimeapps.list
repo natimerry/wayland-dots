@@ -1,3 +1,4 @@
 
 [Default Applications]
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/discord=vesktop.desktop

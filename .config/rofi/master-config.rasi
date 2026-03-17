@@ -24,8 +24,8 @@ configuration {
 /* ---- Global Properties ---- */
 * {
 
-    background-alt:              @selected-active-background; // Buttons background
-    selected:                    #9399b2; // Button selected
+    background-alt:              #b4637a; // Buttons background
+    selected:                    #b4637a; // Button selected
     active:                      @selected-normal-background; // Window activated
     urgent:                      @selected; // When hovering the activated window (maybe more?)
 
@@ -180,7 +180,7 @@ element selected.normal {
     text-color:                  @text-selected;
 }
 element selected.urgent {
-    background-color:            @urgent;
+    background-color:            #b4637a;
     text-color:                  @text-selected;
 }
 element selected.active {

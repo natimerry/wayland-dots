@@ -1,10 +1,11 @@
+
 ## Copyright (C) 2020-2024 Aditya Shakya <adi1090x@gmail.com>
 ##
 ## Font configuration ---------------------------------------
 
 [font]
 ## Font size in points.
-size = 12
+size = 13
 ## When true, Alacritty will use a custom built-in font for box drawing characters and powerline symbols.
 builtin_box_drawing = true
 

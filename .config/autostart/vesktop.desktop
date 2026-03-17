@@ -2,6 +2,7 @@
 Type=Application
 Name=Vesktop
 Comment=Vesktop autostart script
-Exec="/usr/lib/electron31/electron" "/usr/lib/vesktop/app.asar" "env" "ELECTRON_OZONE_PLATFORM_HINT=auto"
+Exec=/opt/vesktop-bin/vesktop
 StartupNotify=false
 Terminal=false
+Icon=vesktop
